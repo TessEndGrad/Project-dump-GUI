@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""
-project_dump_gui.py — GUI-приложение для сборки дампа проекта (tkinter).
-"""
-
 import os
 import threading
 import tkinter as tk
@@ -147,7 +142,7 @@ class App(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Project Dump — Дамп проекта для LLM")
-        self.geometry("780x620")
+        self.geometry("1024x620")
         self.resizable(True, True)
         self.configure(bg="#1e1e2e")
         self._build_ui()
